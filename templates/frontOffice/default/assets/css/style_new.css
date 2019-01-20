@@ -1,0 +1,1314 @@
+/* -------------- Custom style ----------------- */
+body {
+  background-image: url("../images/bg.jpg");
+  overflow-x: hidden; }
+
+a:hover {
+  text-decoration: none; }
+
+@font-face {
+  font-family: 'Steelfish';
+  src: url("../fonts/Steelfish.eot");
+  src: url("../fonts/Steelfish.eot?#iefix") format("embedded-opentype"), url("../fonts/Steelfish.woff2") format("woff2"), url("../fonts/Steelfish.woff") format("woff"), url("../fonts/Steelfish.ttf") format("truetype"), url("../fonts/Steelfish.svg#Steelfish") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura-Condensed';
+  src: url("../fonts/Futura-Condensed-Bold.eot");
+  src: url("../fonts/Futura-Condensed-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura-Condensed-Bold.woff2") format("woff2"), url("../fonts/Futura-Condensed-Bold.woff") format("woff"), url("../fonts/Futura-Condensed-Bold.ttf") format("truetype"), url("../fonts/Futura-Condensed-Bold.svg#Futura-Condensed-Bold") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url("../fonts/AbrilFatface-Regular.eot");
+  src: url("../fonts/AbrilFatface-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AbrilFatface-Regular.woff2") format("woff2"), url("../fonts/AbrilFatface-Regular.woff") format("woff"), url("../fonts/AbrilFatface-Regular.ttf") format("truetype"), url("../fonts/AbrilFatface-Regular.svg#AbrilFatface-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'FuturaCnd';
+  src: url("../fonts/FuturaCnd-Bold.eot");
+  src: url("../fonts/FuturaCnd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaCnd-Bold.woff2") format("woff2"), url("../fonts/FuturaCnd-Bold.woff") format("woff"), url("../fonts/FuturaCnd-Bold.ttf") format("truetype"), url("../fonts/FuturaCnd-Bold.svg#FuturaCnd-Bold") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Steelfish';
+  src: url("../fonts/Steelfish-Bold.eot");
+  src: url("../fonts/Steelfish-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Steelfish-Bold.woff2") format("woff2"), url("../fonts/Steelfish-Bold.woff") format("woff"), url("../fonts/Steelfish-Bold.ttf") format("truetype"), url("../fonts/Steelfish-Bold.svg#Steelfish-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url("../fonts/FuturaStd-Medium.eot");
+  src: url("../fonts/FuturaStd-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaStd-Medium.woff2") format("woff2"), url("../fonts/FuturaStd-Medium.woff") format("woff"), url("../fonts/FuturaStd-Medium.ttf") format("truetype"), url("../fonts/FuturaStd-Medium.svg#FuturaStd-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura';
+  src: url("../fonts/Futura.eot");
+  src: url("../fonts/Futura.eot?#iefix") format("embedded-opentype"), url("../fonts/Futura.woff2") format("woff2"), url("../fonts/Futura.woff") format("woff"), url("../fonts/Futura.ttf") format("truetype"), url("../fonts/Futura.svg#Futura") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+.section {
+  background: #2c2c2b;
+  width: 100%;
+  min-height: 400px;
+  padding: 45px 0; }
+
+.header {
+  width: 100%;
+  border-bottom: 5px solid #dfd2c4; }
+  .header .topNav {
+    width: 100%;
+    background: transparent; }
+    .header .topNav .contentTopNav {
+      text-align: right;
+      width: calc(100% - 20px);
+      padding: 5px 0;
+      display: block; }
+    .header .topNav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .header .topNav ul li {
+        position: relative;
+        display: inline-block;
+        margin-left: 15px; }
+        .header .topNav ul li a {
+          display: inline-block;
+          margin-right: 15px;
+          font-family: "Futura-Condensed";
+          text-decoration: none;
+          font-size: 1rem;
+          color: #2c2c2b;
+          transition: all .4s ease; }
+          .header .topNav ul li a:hover {
+            color: #a48460; }
+          .header .topNav ul li a .fa-facebook-f {
+            position: relative;
+            font-size: 1rem;
+            bottom: 1px; }
+          .header .topNav ul li a .fa-instagram {
+            font-size: 1.2rem; }
+  .header .contentMenu {
+    background: #2c2c2b;
+    text-align: right;
+    width: 100%;
+    padding: 15px 0; }
+    .header .contentMenu .contentNav {
+      text-align: right;
+      width: 90%;
+      display: block; }
+    .header .contentMenu .navbar .nav-item::after {
+      content: '';
+      border-left: 1px solid #baa186;
+      height: 15px;
+      position: absolute;
+      top: 21px; }
+      .header .contentMenu .navbar .nav-item::after:last-child::before {
+        border-left: 0; }
+    .header .contentMenu .navbar .nav-item:last-child::after {
+      content: '';
+      border-left: 0; }
+    .header .contentMenu .navbar a {
+      color: #baa186;
+      font-family: "steelfish";
+      font-weight: normal;
+      font-size: 1.5rem;
+      line-height: 1em;
+      padding-left: 20px;
+      padding-right: 20px;
+      transition: all ease .4s; }
+      .header .contentMenu .navbar a:hover {
+        color: #dfd2c4; }
+    .header .contentMenu .navbar .active a {
+      color: #a48460;
+      font-weight: bold; }
+  .header .carousel-item img {
+    width: 100%; }
+  .header .carousel-item .carousel-caption {
+    width: 350px;
+    text-align: left;
+    top: 30%; }
+    .header .carousel-item .carousel-caption h5 {
+      text-transform: uppercase;
+      color: #dfd2c4;
+      font-size: 6rem;
+      font-family: "Abril Fatface";
+      font-weight: normal;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+    .header .carousel-item .carousel-caption p {
+      font-family: "Futura Std";
+      color: #dfd2c4;
+      font-weight: 100;
+      font-size: 1.4rem;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+  .header .carousel-control-prev-icon {
+    background-image: url("../images/navCaroselLeft.png");
+    height: 50px; }
+  .header .carousel-control-next-icon {
+    background-image: url("../images/navCaroselRight.png");
+    height: 50px; }
+
+.home .row .viande h2, .home .row .commande h2, .home .row .partenaire h2 {
+  color: #a48460;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-family: "Futura-Condensed";
+  font-size: 1rem; }
+
+.home .row .viande p, .home .row .commande p, .home .row .partenaire p {
+  font-family: "Futura";
+  font-size: 1rem; }
+
+.home .row .viande, .home .row .commande {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 20px; }
+  @media (min-width: 576px) {
+    .home .row .viande, .home .row .commande {
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%; } }
+  @media (min-width: 768px) {
+    .home .row .viande, .home .row .commande {
+      flex: 0 0 37.5%;
+      max-width: 37.5%; } }
+  @media (min-width: 992px) {
+    .home .row .viande, .home .row .commande {
+      flex: 0 0 37.5%;
+      max-width: 37.5%; } }
+  .home .row .viande img, .home .row .commande img {
+    height: 70px;
+    width: auto; }
+
+.home .row .partenaire {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-left: 1px solid #a48460;
+  border-right: 1px solid #a48460;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 20px; }
+  @media (min-width: 576px) {
+    .home .row .partenaire {
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%; } }
+  @media (min-width: 768px) {
+    .home .row .partenaire {
+      flex: 0 0 25%;
+      max-width: 25%; } }
+  @media (min-width: 992px) {
+    .home .row .partenaire {
+      flex: 0 0 25%;
+      max-width: 25%; } }
+  .home .row .partenaire img {
+    height: 70px;
+    width: auto; }
+
+.home .row .article {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 576px) {
+    .home .row .article {
+      flex: 0 0 50%;
+      max-width: 50%; } }
+  @media (min-width: 768px) {
+    .home .row .article {
+      flex: 0 0 50%;
+      max-width: 50%; } }
+  @media (min-width: 992px) {
+    .home .row .article {
+      flex: 0 0 50%;
+      max-width: 50%; } }
+  .home .row .article img {
+    position: relative;
+    display: inline;
+    width: 100%; }
+
+.home .row .article- {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 576px) {
+    .home .row .article- {
+      flex: 0 0 41.66667%;
+      max-width: 41.66667%; } }
+  @media (min-width: 768px) {
+    .home .row .article- {
+      flex: 0 0 41.66667%;
+      max-width: 41.66667%; } }
+  @media (min-width: 992px) {
+    .home .row .article- {
+      flex: 0 0 41.66667%;
+      max-width: 41.66667%; } }
+  .home .row .article- img {
+    position: relative;
+    display: inline;
+    width: 100%;
+    height: 250px; }
+    @media (max-width: 479px) {
+      .home .row .article- img {
+        height: auto; } }
+
+.home .row .article-- {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 576px) {
+    .home .row .article-- {
+      flex: 0 0 16.66667%;
+      max-width: 16.66667%; } }
+  @media (min-width: 768px) {
+    .home .row .article-- {
+      flex: 0 0 16.66667%;
+      max-width: 16.66667%; } }
+  @media (min-width: 992px) {
+    .home .row .article-- {
+      flex: 0 0 16.66667%;
+      max-width: 16.66667%; } }
+  .home .row .article-- img {
+    position: relative;
+    display: inline;
+    width: 100%;
+    height: 250px; }
+
+.home .row .article, .home .row .article-, .home .row .article-- {
+  cursor: pointer; }
+  .home .row .article a, .home .row .article- a, .home .row .article-- a {
+    width: 100%; }
+  .home .row .article:hover .mask, .home .row .article-:hover .mask, .home .row .article--:hover .mask {
+    opacity: 1; }
+  .home .row .article .mask, .home .row .article- .mask, .home .row .article-- .mask {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all .5s ease; }
+    .home .row .article .mask .detailsContent, .home .row .article- .mask .detailsContent, .home .row .article-- .mask .detailsContent {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      width: calc(100% - 60px);
+      height: calc(100% - 60px);
+      display: block;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border: rgba(200, 200, 200, 0.25) 4px solid; }
+      .home .row .article .mask .detailsContent .details, .home .row .article- .mask .detailsContent .details, .home .row .article-- .mask .detailsContent .details {
+        display: block;
+        position: relative;
+        width: auto;
+        height: auto;
+        color: #FFF;
+        text-align: center; }
+        .home .row .article .mask .detailsContent .details h2, .home .row .article- .mask .detailsContent .details h2, .home .row .article-- .mask .detailsContent .details h2 {
+          text-transform: uppercase;
+          font-size: 1.5rem;
+          font-family: "steelfish"; }
+        .home .row .article .mask .detailsContent .details p, .home .row .article- .mask .detailsContent .details p, .home .row .article-- .mask .detailsContent .details p {
+          font-size: 1rem;
+          font-family: "Futura Std";
+          font-weight: 500; }
+
+.bannerCarte {
+  position: relative;
+  width: 100%; }
+  .bannerCarte img {
+    width: 100%; }
+  .bannerCarte .carousel-caption {
+    width: 480px;
+    text-align: left;
+    top: 30%; }
+    .bannerCarte .carousel-caption h5 {
+      text-transform: uppercase;
+      color: #dfd2c4;
+      font-size: 6rem;
+      font-family: "Abril Fatface";
+      font-weight: normal;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+    .bannerCarte .carousel-caption p {
+      font-family: "Futura Std";
+      color: #dfd2c4;
+      font-weight: 100;
+      font-size: 1.4rem;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+
+.carte {
+  position: relative; }
+  .carte .article {
+    margin-top: -40px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+    @media (min-width: 576px) {
+      .carte .article {
+        flex: 0 0 100%;
+        max-width: 100%; } }
+    .carte .article .tab-content {
+      width: 100%; }
+      .carte .article .tab-content .nav-tabs {
+        border-bottom: 1px solid #595651;
+        background: #262626; }
+      .carte .article .tab-content .nav-tabs .nav-link {
+        display: inline-block;
+        border-radius: 0;
+        position: relative;
+        text-align: center;
+        font-family: "Futura";
+        color: #a48460;
+        text-transform: uppercase;
+        min-width: 120px;
+        width: auto;
+        padding: 0 15px;
+        border: 0;
+        transition: all .4s ease; }
+        .carte .article .tab-content .nav-tabs .nav-link:hover {
+          color: #dfd2c4; }
+        .carte .article .tab-content .nav-tabs .nav-link > * {
+          display: block;
+          position: relative;
+          margin-top: 90px;
+          margin-bottom: 10px;
+          left: auto;
+          right: auto;
+          font-size: .9rem; }
+      .carte .article .tab-content .nav-tabs .nav-link.active,
+      .carte .article .tab-content .nav-tabs .nav-item.show .nav-link,
+      .carte .article .tab-content .nav-tabs .nav-link:hover,
+      .carte .article .tab-content .nav-tabs .nav-link:focus {
+        border: 0;
+        background: #2c2c2b; }
+      .carte .article .tab-content .nav-item .iconeMenu::before,
+      .carte .article .tab-content .nav-item .iconeBurger::before,
+      .carte .article .tab-content .nav-item .iconeWraps::before,
+      .carte .article .tab-content .nav-item .iconeFingerFood::before,
+      .carte .article .tab-content .nav-item .iconeSalades::before,
+      .carte .article .tab-content .nav-item .iconeKidsBox::before,
+      .carte .article .tab-content .nav-item .iconeSauces::before,
+      .carte .article .tab-content .nav-item .iconeBoissons::before,
+      .carte .article .tab-content .nav-item .iconeDesserts::before {
+        position: absolute;
+        content: "";
+        margin: 0;
+        padding: 0;
+        right: auto;
+        transition: all .4s ease; }
+      .carte .article .tab-content .nav-item .iconeMenu::before {
+        width: 69px;
+        height: 47px;
+        bottom: 45px;
+        left: calc(50% - 35px);
+        background: url("../images/iconeMenu.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeBurger::before {
+        width: 45px;
+        height: 38px;
+        bottom: 45px;
+        left: calc(50% - 22px);
+        background: url("../images/iconeBurger.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeWraps::before {
+        width: 28px;
+        height: 53px;
+        bottom: 45px;
+        left: calc(50% - 14px);
+        background: url("../images/iconeWraps.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeFingerFood::before {
+        width: 44px;
+        height: 51px;
+        bottom: 45px;
+        left: calc(50% - 22px);
+        background: url("../images/iconeFingerFood.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeSalades::before {
+        width: 59px;
+        height: 49px;
+        bottom: 45px;
+        left: calc(50% - 29px);
+        background: url("../images/iconeSalades.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeKidsBox::before {
+        width: 40px;
+        height: 52px;
+        bottom: 45px;
+        left: calc(50% - 20px);
+        background: url("../images/iconeKidsBox.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeSauces::before {
+        width: 44px;
+        height: 53px;
+        bottom: 45px;
+        left: calc(50% - 22px);
+        background: url("../images/iconeSauces.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeBoissons::before {
+        width: 28px;
+        height: 53px;
+        bottom: 45px;
+        left: calc(50% - 14px);
+        background: url("../images/iconeBoissons.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeDesserts::before {
+        width: 35px;
+        height: 41px;
+        bottom: 45px;
+        left: calc(50% - 17px);
+        background: url("../images/iconeDesserts.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeMenu:hover::before,
+      .carte .article .tab-content .nav-item .iconeMenu.active::before,
+      .carte .article .tab-content .nav-item .iconeBurger:hover::before,
+      .carte .article .tab-content .nav-item .iconeBurger.active::before,
+      .carte .article .tab-content .nav-item .iconeWraps:hover::before,
+      .carte .article .tab-content .nav-item .iconeWraps.active::before,
+      .carte .article .tab-content .nav-item .iconeFingerFood:hover::before,
+      .carte .article .tab-content .nav-item .iconeFingerFood.active::before,
+      .carte .article .tab-content .nav-item .iconeSalades:hover::before,
+      .carte .article .tab-content .nav-item .iconeSalades.active::before,
+      .carte .article .tab-content .nav-item .iconeKidsBox:hover::before,
+      .carte .article .tab-content .nav-item .iconeKidsBox.active::before,
+      .carte .article .tab-content .nav-item .iconeSauces:hover::before,
+      .carte .article .tab-content .nav-item .iconeSauces.active::before,
+      .carte .article .tab-content .nav-item .iconeBoissons:hover::before,
+      .carte .article .tab-content .nav-item .iconeBoissons.active::before,
+      .carte .article .tab-content .nav-item .iconeDesserts:hover::before,
+      .carte .article .tab-content .nav-item .iconeDesserts.active::before {
+        content: "";
+        margin: 0;
+        padding: 0;
+        bottom: 40px; }
+      .carte .article .tab-content .nav-item .iconeMenu:hover::before,
+      .carte .article .tab-content .nav-item .iconeMenu.active::before {
+        background: url("../images/iconeMenuH.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeBurger:hover::before,
+      .carte .article .tab-content .nav-item .iconeBurger.active::before {
+        background: url("../images/iconeBurgerH.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeWraps:hover::before,
+      .carte .article .tab-content .nav-item .iconeWraps.active::before {
+        background: url("../images/iconeWrapsH.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeFingerFood:hover::before,
+      .carte .article .tab-content .nav-item .iconeFingerFood.active::before {
+        background: url("../images/iconeFingerFoodH.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeSalades:hover::before,
+      .carte .article .tab-content .nav-item .iconeSalades.active::before {
+        background: url("../images/iconeSaladesH.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeKidsBox:hover::before,
+      .carte .article .tab-content .nav-item .iconeKidsBox.active::before {
+        background: url("../images/iconeKidsBoxH.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeSauces:hover::before,
+      .carte .article .tab-content .nav-item .iconeSauces.active::before {
+        background: url("../images/iconeSaucesH.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeBoissons:hover::before,
+      .carte .article .tab-content .nav-item .iconeBoissons.active::before {
+        background: url("../images/iconeBoissonsH.png") no-repeat; }
+      .carte .article .tab-content .nav-item .iconeDesserts:hover::before,
+      .carte .article .tab-content .nav-item .iconeDesserts.active::before {
+        background: url("../images/iconeDessertsH.png") no-repeat; }
+      .carte .article .tab-content .gridMenu {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 30px; }
+        @media (min-width: 576px) {
+          .carte .article .tab-content .gridMenu {
+            flex: 0 0 50%;
+            max-width: 50%; } }
+        @media (min-width: 768px) {
+          .carte .article .tab-content .gridMenu {
+            flex: 0 0 33.33333%;
+            max-width: 33.33333%; } }
+        .carte .article .tab-content .gridMenu .menuInt {
+          text-align: center;
+          border: 2px solid #3e3d3b;
+          padding: 20px 30px;
+          background: #262626; }
+          .carte .article .tab-content .gridMenu .menuInt h3 {
+            text-transform: uppercase;
+            font-family: "steelfish";
+            color: #baa186;
+            font-size: 2rem; }
+          .carte .article .tab-content .gridMenu .menuInt p {
+            font-family: "Futura";
+            color: #FFF;
+            font-size: 1rem; }
+          .carte .article .tab-content .gridMenu .menuInt .separate {
+            display: block;
+            height: 1px;
+            width: 90%;
+            margin: 10px auto;
+            border-top: 1px solid #a48460; }
+          .carte .article .tab-content .gridMenu .menuInt strong {
+            display: block;
+            font-family: "Futura Std";
+            color: #FFF;
+            font-size: 2rem;
+            margin-bottom: 10px; }
+          .carte .article .tab-content .gridMenu .menuInt .btn-secondary {
+            color: #2c2c2b;
+            font-family: "steelfish";
+            font-size: 1.4rem;
+            background: #dfd2c4;
+            padding: 2px 0;
+            text-transform: uppercase;
+            width: 90%; }
+            .carte .article .tab-content .gridMenu .menuInt .btn-secondary:hover {
+              background: #baa186; }
+
+.bannerRestos {
+  position: relative;
+  width: 100%; }
+  .bannerRestos img {
+    width: 100%; }
+  .bannerRestos .carousel-caption {
+    width: 480px;
+    text-align: left;
+    top: 30%; }
+    .bannerRestos .carousel-caption h5 {
+      text-transform: uppercase;
+      color: #dfd2c4;
+      font-size: 6rem;
+      font-family: "Abril Fatface";
+      font-weight: normal;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+    .bannerRestos .carousel-caption p {
+      font-family: "Futura Std";
+      color: #dfd2c4;
+      font-weight: 100;
+      font-size: 1.4rem;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+
+.restos .article {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -40px; }
+  @media (min-width: 576px) {
+    .restos .article {
+      flex: 0 0 100%;
+      max-width: 100%; } }
+  .restos .article .tab-content {
+    width: 100%; }
+    .restos .article .tab-content .nav-tabs {
+      border-bottom: 1px solid #595651;
+      background: #262626; }
+    .restos .article .tab-content .nav-tabs .nav-link {
+      display: inline-block;
+      border-radius: 0;
+      position: relative;
+      text-align: center;
+      font-family: "Futura";
+      color: #a48460;
+      text-transform: uppercase;
+      min-width: 120px;
+      width: auto;
+      padding: 0 15px;
+      border: 0;
+      transition: all .4s ease; }
+      .restos .article .tab-content .nav-tabs .nav-link:hover {
+        color: #dfd2c4; }
+      .restos .article .tab-content .nav-tabs .nav-link > * {
+        display: block;
+        position: relative;
+        margin-top: 90px;
+        margin-bottom: 10px;
+        left: auto;
+        right: auto;
+        font-size: .9rem; }
+    .restos .article .tab-content .nav-tabs .nav-link.active,
+    .restos .article .tab-content .nav-tabs .nav-item.show .nav-link,
+    .restos .article .tab-content .nav-tabs .nav-link:hover,
+    .restos .article .tab-content .nav-tabs .nav-link:focus {
+      border: 0;
+      background: #2c2c2b; }
+    .restos .article .tab-content .nav-item .iconeHossegor::before,
+    .restos .article .tab-content .nav-item .iconeCapbreton::before,
+    .restos .article .tab-content .nav-item .iconeSouston::before {
+      position: absolute;
+      content: "";
+      margin: 0;
+      padding: 0;
+      right: auto;
+      transition: all .4s ease;
+      width: 55px;
+      height: 54px;
+      bottom: 45px;
+      left: calc(50% - 27px); }
+    .restos .article .tab-content .nav-item .iconeHossegor::before {
+      background: url("../images/iconeRestaurant.png") no-repeat; }
+    .restos .article .tab-content .nav-item .iconeCapbreton::before {
+      background: url("../images/iconeRestaurant.png") no-repeat; }
+    .restos .article .tab-content .nav-item .iconeSouston::before {
+      background: url("../images/iconeRestaurant.png") no-repeat; }
+    .restos .article .tab-content .nav-item .iconeHossegor:hover::before,
+    .restos .article .tab-content .nav-item .iconeHossegor.active::before,
+    .restos .article .tab-content .nav-item .iconeCapbreton:hover::before,
+    .restos .article .tab-content .nav-item .iconeCapbreton.active::before,
+    .restos .article .tab-content .nav-item .iconeSouston:hover::before,
+    .restos .article .tab-content .nav-item .iconeSouston.active::before {
+      content: "";
+      margin: 0;
+      padding: 0;
+      bottom: 40px; }
+    .restos .article .tab-content .nav-item .iconeHossegor:hover::before,
+    .restos .article .tab-content .nav-item .iconeHossegor.active::before {
+      background: url("../images/iconeRestaurantH.png") no-repeat; }
+    .restos .article .tab-content .nav-item .iconeCapbreton:hover::before,
+    .restos .article .tab-content .nav-item .iconeCapbreton.active::before {
+      background: url("../images/iconeRestaurantH.png") no-repeat; }
+    .restos .article .tab-content .nav-item .iconeSouston:hover::before,
+    .restos .article .tab-content .nav-item .iconeSouston.active::before {
+      background: url("../images/iconeRestaurantH.png") no-repeat; }
+    .restos .article .tab-content .grid-- {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-top: 30px; }
+      @media (min-width: 576px) {
+        .restos .article .tab-content .grid-- {
+          flex: 0 0 50%;
+          max-width: 50%; } }
+      .restos .article .tab-content .grid-- > img {
+        width: 100%; }
+      .restos .article .tab-content .grid-- .gridAdress {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 20px; }
+        @media (min-width: 576px) {
+          .restos .article .tab-content .grid-- .gridAdress {
+            flex: 0 0 50%;
+            max-width: 50%; } }
+        .restos .article .tab-content .grid-- .gridAdress p {
+          color: #a48460;
+          font-family: "FuturaCnd";
+          font-size: 1rem;
+          line-height: 18px;
+          display: inline-block; }
+      .restos .article .tab-content .grid-- .gridTripad {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 20px;
+        text-align: right; }
+        @media (min-width: 576px) {
+          .restos .article .tab-content .grid-- .gridTripad {
+            flex: 0 0 50%;
+            max-width: 50%; } }
+      .restos .article .tab-content .grid-- .separate {
+        display: block;
+        height: 1px;
+        width: calc(100% - 30px);
+        margin: 10px auto;
+        border-top: 1px solid #a48460; }
+      .restos .article .tab-content .grid-- .grid- {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 20px; }
+        @media (min-width: 576px) {
+          .restos .article .tab-content .grid-- .grid- {
+            flex: 0 0 100%;
+            max-width: 100%; } }
+        .restos .article .tab-content .grid-- .grid- .btn-secondary {
+          width: 100%;
+          border-radius: 0;
+          font-family: "Futura Std";
+          font-size: 1.2rem;
+          text-transform: uppercase;
+          color: #FFF; }
+        .restos .article .tab-content .grid-- .grid- p {
+          color: #a48460;
+          font-family: "FuturaCnd";
+          font-size: 1rem;
+          line-height: 18px;
+          display: inline-block; }
+    .restos .article .tab-content .gridVideo {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-top: 20px; }
+      @media (min-width: 576px) {
+        .restos .article .tab-content .gridVideo {
+          flex: 0 0 100%;
+          max-width: 100%; } }
+      .restos .article .tab-content .gridVideo img {
+        width: 100%; }
+    .restos .article .tab-content .gridPhoto {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-top: 20px; }
+      @media (min-width: 576px) {
+        .restos .article .tab-content .gridPhoto {
+          flex: 0 0 100%;
+          max-width: 100%; } }
+      .restos .article .tab-content .gridPhoto .img1,
+      .restos .article .tab-content .gridPhoto .img2,
+      .restos .article .tab-content .gridPhoto .img3,
+      .restos .article .tab-content .gridPhoto .img4,
+      .restos .article .tab-content .gridPhoto .img5,
+      .restos .article .tab-content .gridPhoto .img6 {
+        margin-top: 30px; }
+        .restos .article .tab-content .gridPhoto .img1 img,
+        .restos .article .tab-content .gridPhoto .img2 img,
+        .restos .article .tab-content .gridPhoto .img3 img,
+        .restos .article .tab-content .gridPhoto .img4 img,
+        .restos .article .tab-content .gridPhoto .img5 img,
+        .restos .article .tab-content .gridPhoto .img6 img {
+          width: 100%; }
+      .restos .article .tab-content .gridPhoto .img1 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px; }
+        @media (min-width: 576px) {
+          .restos .article .tab-content .gridPhoto .img1 {
+            flex: 0 0 43.16667%;
+            max-width: 43.16667%; } }
+      .restos .article .tab-content .gridPhoto .img2 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px; }
+        @media (min-width: 576px) {
+          .restos .article .tab-content .gridPhoto .img2 {
+            flex: 0 0 56.83333%;
+            max-width: 56.83333%; } }
+      .restos .article .tab-content .gridPhoto .img3 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px; }
+        @media (min-width: 576px) {
+          .restos .article .tab-content .gridPhoto .img3 {
+            flex: 0 0 22.91667%;
+            max-width: 22.91667%; } }
+      .restos .article .tab-content .gridPhoto .img4 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px; }
+        @media (min-width: 576px) {
+          .restos .article .tab-content .gridPhoto .img4 {
+            flex: 0 0 17.75%;
+            max-width: 17.75%; } }
+      .restos .article .tab-content .gridPhoto .img5 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px; }
+        @media (min-width: 576px) {
+          .restos .article .tab-content .gridPhoto .img5 {
+            flex: 0 0 30%;
+            max-width: 30%; } }
+      .restos .article .tab-content .gridPhoto .img6 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px; }
+        @media (min-width: 576px) {
+          .restos .article .tab-content .gridPhoto .img6 {
+            flex: 0 0 29.16667%;
+            max-width: 29.16667%; } }
+
+.bannerActus {
+  position: relative;
+  width: 100%; }
+  .bannerActus img {
+    width: 100%; }
+  .bannerActus .carousel-caption {
+    width: 480px;
+    text-align: left;
+    top: 30%; }
+    .bannerActus .carousel-caption h5 {
+      text-transform: uppercase;
+      color: #dfd2c4;
+      font-size: 6rem;
+      font-family: "Abril Fatface";
+      font-weight: normal;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+    .bannerActus .carousel-caption p {
+      font-family: "Futura Std";
+      color: #2c2c2b;
+      font-weight: 100;
+      font-size: 1.4rem;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+
+.actualites .article {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 40px; }
+  @media (min-width: 576px) {
+    .actualites .article {
+      flex: 0 0 100%;
+      max-width: 100%; } }
+  .actualites .article::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 15px;
+    width: calc(100% - 30px);
+    border-bottom: 1px solid #a48460; }
+  .actualites .article:last-child::after {
+    border: none; }
+  .actualites .article .vignette {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+    @media (min-width: 576px) {
+      .actualites .article .vignette {
+        flex: 0 0 50%;
+        max-width: 50%; } }
+    @media (min-width: 768px) {
+      .actualites .article .vignette {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%; } }
+    .actualites .article .vignette img {
+      max-width: 100%; }
+  .actualites .article .resumes {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px; }
+    @media (min-width: 576px) {
+      .actualites .article .resumes {
+        flex: 0 0 50%;
+        max-width: 50%; } }
+    @media (min-width: 768px) {
+      .actualites .article .resumes {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+        padding-left: 50px; } }
+    .actualites .article .resumes h4 {
+      color: #FFF;
+      font-size: 1.4rem;
+      font-family: "Futura";
+      text-transform: uppercase; }
+      .actualites .article .resumes h4 a {
+        color: #FFF;
+        font-size: 1.4rem;
+        font-family: "Futura";
+        text-transform: uppercase;
+        text-decoration: none; }
+    .actualites .article .resumes p {
+      color: #a48460;
+      font-family: "Futura";
+      font-size: 1rem; }
+    .actualites .article .resumes a {
+      font-family: "Futura";
+      color: #FFF;
+      font-size: 1rem;
+      text-transform: uppercase;
+      text-decoration: underline;
+      transition: all ease .4s; }
+      .actualites .article .resumes a:hover {
+        color: #a48460; }
+
+.bannerMag {
+  position: relative;
+  width: 100%; }
+  .bannerMag img {
+    width: 100%; }
+  .bannerMag .carousel-caption {
+    width: 480px;
+    text-align: left;
+    top: 30%; }
+    .bannerMag .carousel-caption h5 {
+      text-transform: uppercase;
+      color: #dfd2c4;
+      font-size: 6rem;
+      font-family: "Abril Fatface";
+      font-weight: normal;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+    .bannerMag .carousel-caption p {
+      font-family: "Futura Std";
+      color: #dfd2c4;
+      font-weight: 100;
+      font-size: 1.4rem;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+
+.mag .article {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 576px) {
+    .mag .article {
+      flex: 0 0 100%;
+      max-width: 100%; } }
+  .mag .article img {
+    max-width: 100%; }
+
+.bannerEmploi {
+  position: relative;
+  width: 100%; }
+  .bannerEmploi img {
+    width: 100%; }
+  .bannerEmploi .carousel-caption {
+    width: 480px;
+    text-align: left;
+    top: 30%; }
+    .bannerEmploi .carousel-caption h5 {
+      text-transform: uppercase;
+      color: #dfd2c4;
+      font-size: 6rem;
+      font-family: "Abril Fatface";
+      font-weight: normal;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+    .bannerEmploi .carousel-caption p {
+      font-family: "Futura Std";
+      color: #2c2c2b;
+      font-weight: 100;
+      font-size: 1.4rem;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+
+.emploi .article {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 8%;
+  text-align: center;
+  font-family: "Futura Std";
+  font-size: 1.2rem; }
+  @media (min-width: 576px) {
+    .emploi .article {
+      flex: 0 0 100%;
+      max-width: 100%; } }
+  .emploi .article p {
+    color: #a48460; }
+  .emploi .article a {
+    color: #dfd2c4; }
+
+.bannerContact {
+  position: relative;
+  width: 100%; }
+  .bannerContact img {
+    width: 100%; }
+  .bannerContact .carousel-caption {
+    width: 560px;
+    text-align: left;
+    top: 30%; }
+    .bannerContact .carousel-caption h5 {
+      text-transform: uppercase;
+      color: #dfd2c4;
+      font-size: 6rem;
+      font-family: "Abril Fatface";
+      font-weight: normal;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+    .bannerContact .carousel-caption p {
+      font-family: "Futura Std";
+      color: #dfd2c4;
+      font-weight: 100;
+      font-size: 1.4rem;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.55); }
+
+.contact .article {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 576px) {
+    .contact .article {
+      flex: 0 0 100%;
+      max-width: 100%; } }
+  .contact .article h4 {
+    font-family: "steelfish";
+    font-size: 2rem;
+    color: #a48460;
+    text-transform: uppercase; }
+  .contact .article .formContent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-family: "Futura"; }
+    .contact .article .formContent .gridNom, .contact .article .formContent .gridMail {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px; }
+      @media (min-width: 576px) {
+        .contact .article .formContent .gridNom, .contact .article .formContent .gridMail {
+          flex: 0 0 100%;
+          max-width: 100%; } }
+      @media (min-width: 768px) {
+        .contact .article .formContent .gridNom, .contact .article .formContent .gridMail {
+          flex: 0 0 50%;
+          max-width: 50%; } }
+      .contact .article .formContent .gridNom label, .contact .article .formContent .gridMail label {
+        color: #dfd2c4;
+        font-size: 1rem;
+        margin-top: 15px; }
+    .contact .article .formContent .gridSujet, .contact .article .formContent .gridMessage, .contact .article .formContent .submit {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px; }
+      @media (min-width: 576px) {
+        .contact .article .formContent .gridSujet, .contact .article .formContent .gridMessage, .contact .article .formContent .submit {
+          flex: 0 0 100%;
+          max-width: 100%; } }
+      .contact .article .formContent .gridSujet label, .contact .article .formContent .gridMessage label, .contact .article .formContent .submit label {
+        color: #dfd2c4;
+        font-size: 1rem;
+        margin-top: 15px; }
+      .contact .article .formContent .gridSujet .form-control, .contact .article .formContent .gridMessage .form-control, .contact .article .formContent .submit .form-control {
+        border-radius: 2px; }
+      .contact .article .formContent .gridSujet textarea, .contact .article .formContent .gridMessage textarea, .contact .article .formContent .submit textarea {
+        min-height: 140px; }
+      .contact .article .formContent .gridSujet .btn-secondary, .contact .article .formContent .gridMessage .btn-secondary, .contact .article .formContent .submit .btn-secondary {
+        background-color: #a48460;
+        border-color: #a48460;
+        font-family: "steelfish";
+        width: auto;
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #dfd2c4;
+        transition: all .4s ease; }
+        .contact .article .formContent .gridSujet .btn-secondary:hover, .contact .article .formContent .gridMessage .btn-secondary:hover, .contact .article .formContent .submit .btn-secondary:hover {
+          background-color: #2c2c2b;
+          color: #a48460; }
+
+.contact .map {
+  margin-bottom: 30px; }
+  .contact .map img {
+    width: 100%; }
+
+.footer {
+  width: 100%; }
+  .footer .topFooter {
+    background: #a48460;
+    padding: 15px 0;
+    margin-top: 5px; }
+    .footer .topFooter .vente {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px; }
+      @media (min-width: 576px) {
+        .footer .topFooter .vente {
+          flex: 0 0 50%;
+          max-width: 50%; } }
+    .footer .topFooter .paiement {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px; }
+      @media (min-width: 576px) {
+        .footer .topFooter .paiement {
+          flex: 0 0 50%;
+          max-width: 50%; } }
+      @media (min-width: 768px) {
+        .footer .topFooter .paiement {
+          flex: 0 0 25%;
+          max-width: 25%; } }
+    .footer .topFooter .ouverte {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px; }
+      @media (min-width: 576px) {
+        .footer .topFooter .ouverte {
+          flex: 0 0 50%;
+          max-width: 50%; } }
+      @media (min-width: 768px) {
+        .footer .topFooter .ouverte {
+          flex: 0 0 25%;
+          max-width: 25%; } }
+    .footer .topFooter h3 {
+      text-transform: uppercase;
+      color: #dfd2c4;
+      margin: 0;
+      font-family: "steelfish";
+      font-weight: 500;
+      font-size: 1.9rem; }
+  .footer .bottomFooter {
+    padding: 20px 0; }
+    .footer .bottomFooter h4 {
+      position: relative;
+      color: #a48460;
+      font-family: "steelfish";
+      font-weight: 500;
+      font-size: 1.8rem; }
+    .footer .bottomFooter h5 {
+      text-transform: uppercase;
+      color: #2c2c2b;
+      font-family: "Futura-Condensed";
+      font-size: 1rem;
+      margin: 0; }
+    .footer .bottomFooter p {
+      font-size: 1rem;
+      color: #2c2c2b;
+      font-family: "Futura-Condensed"; }
+    .footer .bottomFooter .nosRestaurants {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px; }
+      @media (min-width: 576px) {
+        .footer .bottomFooter .nosRestaurants {
+          flex: 0 0 50%;
+          max-width: 50%; } }
+      @media (min-width: 768px) {
+        .footer .bottomFooter .nosRestaurants {
+          flex: 0 0 50%;
+          max-width: 50%; } }
+      @media (min-width: 992px) {
+        .footer .bottomFooter .nosRestaurants {
+          flex: 0 0 50%;
+          max-width: 50%;
+          text-align: left; } }
+      .footer .bottomFooter .nosRestaurants .separate::after {
+        position: relative;
+        content: '';
+        left: 0;
+        bottom: -10px;
+        display: block;
+        width: 70%;
+        float: left;
+        margin: 0;
+        border-bottom: 2px solid #a48460;
+        clear: both; }
+    .footer .bottomFooter .laCarte {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px; }
+      @media (min-width: 576px) {
+        .footer .bottomFooter .laCarte {
+          flex: 0 0 50%;
+          max-width: 50%; } }
+      @media (min-width: 768px) {
+        .footer .bottomFooter .laCarte {
+          flex: 0 0 25%;
+          max-width: 25%; } }
+      @media (min-width: 992px) {
+        .footer .bottomFooter .laCarte {
+          flex: 0 0 25%;
+          max-width: 25%; } }
+      .footer .bottomFooter .laCarte ul {
+        margin: 0;
+        padding: 0;
+        list-style: none; }
+        .footer .bottomFooter .laCarte ul li a {
+          color: #2c2c2b;
+          font-family: "Futura-Condensed";
+          font-size: 1rem;
+          transition: all .4s ease; }
+          .footer .bottomFooter .laCarte ul li a:hover {
+            color: #a48460; }
+    .footer .bottomFooter .suivezNous {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px; }
+      @media (min-width: 576px) {
+        .footer .bottomFooter .suivezNous {
+          flex: 0 0 50%;
+          max-width: 50%; } }
+      @media (min-width: 768px) {
+        .footer .bottomFooter .suivezNous {
+          flex: 0 0 25%;
+          max-width: 25%; } }
+      @media (min-width: 992px) {
+        .footer .bottomFooter .suivezNous {
+          flex: 0 0 25%;
+          max-width: 25%; } }
+      .footer .bottomFooter .suivezNous h4 a {
+        color: #a48460;
+        display: inline-block;
+        margin-left: 15px;
+        transition: all ease .4s; }
+        .footer .bottomFooter .suivezNous h4 a:hover {
+          color: #2c2c2b; }
+        .footer .bottomFooter .suivezNous h4 a .fa-facebook-f {
+          position: relative;
+          bottom: 3px;
+          font-size: 1.5rem; }
+        .footer .bottomFooter .suivezNous h4 a .fa-instagram {
+          font-size: 1.6rem; }
+      .footer .bottomFooter .suivezNous .btn-secondary {
+        background-color: #a48460;
+        border-color: #a48460;
+        font-family: "Futura-Condensed";
+        width: 100%;
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: #dfd2c4;
+        transition: all .4s ease; }
+        .footer .bottomFooter .suivezNous .btn-secondary:hover {
+          background-color: #2c2c2b; }

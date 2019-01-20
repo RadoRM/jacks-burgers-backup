@@ -1,0 +1,50 @@
+{assign var="pdefault" value=$DEFAULT_CATEGORY}
+<div class="sub hidden-xs hidden-sm">
+<ul class="nav nav-tabs responsive" id="myTab">
+
+    {loop type="category" name="category_tag" id=3}
+    <li class="{if $category_id == 3}active part1{/if} {if $pdefault=='3'}active part21{/if}"><a class="menuburger" href="{$URL}">{$TITLE}</a></li>
+    {/loop}
+
+    {loop type="category" name="category_tag" id=1}
+    <li class="{if $category_id == 1}active part1{/if}{if $pdefault=='1'}active part22{/if}"><a class="burger" href="{$URL}">{$TITLE}</a></li>
+    {/loop}
+
+
+    {loop type="category" name="category_tag" id=7}
+    <li class="{if $category_id == 7}active{/if}{if $pdefault=='7'}active{/if}"><a class="wraps" href="{$URL}">{$TITLE}</a></li>
+    {/loop}
+
+
+    {loop type="category" name="category_tag" id=5}
+    <li class="{if $category_id == 5}active{/if}{if $pdefault=='5'}active{/if}"><a class="bouchees" href="{$URL}">{$TITLE}</a></li>
+    {/loop}
+
+
+    {loop type="category" name="category_tag" id=4}
+    <li class="{if $category_id == 4}active part1{/if}{if $pdefault=='4'}active part23{/if}"><a class="salads" href="{$URL}">{$TITLE}</a></li>
+    {/loop}
+
+
+
+    {loop type="category" name="category_tag" id=11}
+    <li class="{if $category_id == 11}active{/if}{if $pdefault=='11'}active{/if}"><a class="kids" href="{$URL}">{$TITLE}</a></li>
+    {/loop}
+
+
+
+
+    {loop type="category" name="category_tag" id=10}
+    <li class="{if $category_id == 10}active{/if}{if $pdefault=='10'}active{/if}"><a class="sauces" href="{$URL}">{$TITLE}</a></li>
+    {/loop}
+
+    {loop type="category" name="category_tag" id=9}
+    <li class="{if $category_id == 9}active{/if}{if $pdefault=='9'}active{/if}"><a class="boissons" href="{$URL}">{{$TITLE}}</a></li>
+    {/loop}
+
+    {loop type="category" name="category_tag" id=8}
+    <li class="{if $category_id == 8}active{/if}{if $pdefault=='8'}active{/if}"><a class="desserts" href="{$URL}">{$TITLE}</a></li>
+    {/loop}
+
+</ul>
+</div>

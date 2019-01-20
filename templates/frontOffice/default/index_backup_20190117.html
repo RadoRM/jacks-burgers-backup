@@ -1,0 +1,92 @@
+{extends file="layout.tpl"}
+
+{* Body Class *}
+{block name="body-class"}page-home{/block}
+
+{* Page Title *}
+{block name='no-return-functions' append}
+    {$page_title = {config key="store_name"}}
+{/block}
+
+{* Hide breadcrumb *}
+{block name='breadcrumb'}{/block}
+
+
+{block name="main-content"}
+
+<section>
+    <div class="home-container container">
+        <div class="row">
+            <div class="col-sm-6 col-xs cont-lf">
+                <a href="/menuburger"><h2>MENUS BURGER<span><img src="{images file='assets/images/heading1.png'}{$asset_url}{/images}" alt=""/></span></h2>
+                <img src="{images file='assets/images/menu-burger-big.jpg'}{$asset_url}{/images}" alt=""/></a>
+            </div>
+            <div class="col-sm-6 cont-lf">
+                <a href="/burgers"><h2>BURGERS<span><img src="{images file='assets/images/heading1.png'}{$asset_url}{/images}" alt=""/></span></h2>
+                <img src="{images file='assets/images/burger-big.jpg'}{$asset_url}{/images}" alt=""/></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="row content2">
+            <div class="cont-lf">
+
+                <a href="/wraps"><img src="{images file='assets/images/wraps-big.jpg'}{$asset_url}{/images}" alt=""/>
+                <h2>Wraps<span><img src="{images file='assets/images/heading1.png'}{$asset_url}{/images}" alt=""/></span></h2></a>
+            </div>
+            <div class="cont-lf">
+
+                <a href="/desserts"><img src="{images file='assets/images/dessert-big.jpg'}{$asset_url}{/images}" alt=""/>
+                <h2>Desserts<span><img src="{images file='assets/images/heading1.png'}{$asset_url}{/images}" alt=""/></span></h2></a>
+            </div>
+            <div class="cont-lf cont-rt">
+
+                <a href="/sauces"><img src="{images file='assets/images/sauces-big.jpg'}{$asset_url}{/images}" alt=""/>
+                <h2>Sauces<span class="sauces1"><img src="{images file='assets/images/heading2.png'}{$asset_url}{/images}" alt=""/></span><span class="sauces2">
+                        <img src="{images file='assets/images/heading1.png'}{$asset_url}{/images}" alt=""/></span></h2></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 cont-lf">
+
+                <a href="/salades"><img src="{images file='assets/images/salad-big.jpg'}{$asset_url}{/images}" alt=""/>
+                <h2>salades<span><img src="{images file='assets/images/heading.png'}{$asset_url}{/images}" alt=""/></span></h2></a>
+            </div>
+            <div class="col-sm-6 cont-lf">
+
+                <a href="/boissons"><img src="{images file='assets/images/boisson-big.jpg'}{$asset_url}{/images}" alt=""/>
+                <h2>Boissons<span><img src="{images file='assets/images/heading.png'}{$asset_url}{/images}" alt=""/></span></h2></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="row content3">
+            <div class="cont-lf">
+                <a href="/kids-box"><img src="{images file='assets/images/kid-box-big.jpg'}{$asset_url}{/images}" alt=""/>
+                <h2>Kid's Box<span><img src="{images file='assets/images/heading.png'}{$asset_url}{/images}" alt=""/></span></h2></a>
+            </div>
+            <div class="cont-lf cont-rt">
+                <a href="/bouchées"><img src="{images file='assets/images/bouchees-big.jpg'}{$asset_url}{/images}" alt=""/>
+                <h2>Finger Food<span><img src="{images file='assets/images/heading1.png'}{$asset_url}{/images}" alt=""/></span></h2></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</section>{/block}
+
+
+{* Main content *}
+{block name="main-content"}
+    {hook name="home.body"}
+{/block}
+
+{block name="stylesheet"}
+{hook name="home.stylesheet"}
+{/block}
+
+{block name="after-javascript-include"}
+{hook name="home.after-javascript-include"}
+{/block}
+
+{block name="javascript-initialization"}
+{hook name="home.javascript-initialization"}
+{/block}
